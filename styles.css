@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.contentbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentbody > div {
+    flex: 1 0 20vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-color: cornflowerblue;
+}
+
+.contentbody > div:nth-of-type(2n) {
+    background-color: whitesmoke;
+}
+
