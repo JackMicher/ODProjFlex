@@ -2,6 +2,26 @@
     box-sizing: border-box;
 }
 
+nav {
+    position: sticky;
+    height: 80px;
+}
+
+#intro {
+    display: flex;
+}
+
+#intro > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: auto;
+}
+
+.flexobj {
+    flex: auto;
+}
+
 .contentbody {
     display: flex;
     flex-direction: column;
@@ -9,8 +29,8 @@
 
 .contentbody > div {
     flex: 1 0 20vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     background-color: cornflowerblue;
 }
 
