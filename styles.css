@@ -18,6 +18,18 @@ nav {
     flex: auto;
 }
 
+#info {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#info > div {
+    display: flex;
+    justify-content: center;
+    flex: auto;
+}
+
 .flexobj {
     flex: auto;
 }
