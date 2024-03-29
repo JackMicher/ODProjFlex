@@ -7,6 +7,12 @@ nav {
     height: 80px;
 }
 
+div {
+    border-width: 2px;
+    border-style: solid;
+    border-color: darksalmon;
+}
+
 #intro {
     display: flex;
 }
@@ -30,10 +36,6 @@ nav {
     flex: auto;
 }
 
-.flexobj {
-    flex: auto;
-}
-
 .contentbody {
     display: flex;
     flex-direction: column;
@@ -50,3 +52,16 @@ nav {
     background-color: whitesmoke;
 }
 
+.cardarray {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardarray > div {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
