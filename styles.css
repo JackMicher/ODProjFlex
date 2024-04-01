@@ -3,6 +3,7 @@
 }
 
 nav {
+    top: 0px;
     position: sticky;
     height: 80px;
 }
@@ -11,6 +12,11 @@ div {
     border-width: 2px;
     border-style: solid;
     border-color: darksalmon;
+}
+
+nav > div {
+    height: 100%;
+    background-color: aquamarine;
 }
 
 #intro {
@@ -57,11 +63,13 @@ div {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .cardarray > div {
     display: flex;
     flex-direction: column;
     flex: auto;
+    text-align: center;
 }
