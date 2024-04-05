@@ -24,6 +24,11 @@ nav > div {
     background-color: aquamarine;
 }
 
+footer {
+    height: 80px;
+    background-color: cadetblue;
+}
+
 #intro {
     display: flex;
     gap: 5%;
@@ -58,9 +63,10 @@ nav > div {
 }
 
 #quotebox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 
 .contentbody {
