@@ -21,12 +21,14 @@ div {
 */
 nav > div {
     height: 100%;
-    background-color: aquamarine;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 footer {
     height: 80px;
-    background-color: cadetblue;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 #contentbody {
@@ -38,7 +40,6 @@ footer {
     flex: 1 0 20vh;
     padding-left: 15vw;
     padding-right: 15vw;
-    background-color: cornflowerblue;
 }
 
 #contentbody > div:nth-of-type(2n) {
@@ -46,6 +47,8 @@ footer {
 }
 
 #intro {
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     gap: 5%;
     padding-top: 10%;
@@ -56,7 +59,9 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     flex: auto;
+    gap: 10px;
 }
 
 #info {
@@ -79,6 +84,8 @@ footer {
 }
 
 #quotebox {
+    background-color: #E5E7EB;
+    color: #1F2937;
     display: grid;
     grid-template-rows: 5fr 1fr;
     padding-top: 8%;
@@ -99,7 +106,7 @@ footer {
     border-radius: 5px;
     margin-top: 8%;
     margin-bottom: 8%;
-    background-color: darkslateblue;
+    background-color: #3882F6;
     height: 50%;
 }
 
