@@ -29,6 +29,22 @@ footer {
     background-color: cadetblue;
 }
 
+#contentbody {
+    display: flex;
+    flex-direction: column;
+}
+
+#contentbody > div {
+    flex: 1 0 20vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: cornflowerblue;
+}
+
+#contentbody > div:nth-of-type(2n) {
+    background-color: whitesmoke;
+}
+
 #intro {
     display: flex;
     gap: 5%;
@@ -69,20 +85,21 @@ footer {
     padding-bottom: 8%;
 }
 
-.contentbody {
+#signupbox {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-.contentbody > div {
-    flex: 1 0 20vh;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    background-color: cornflowerblue;
-}
-
-.contentbody > div:nth-of-type(2n) {
-    background-color: whitesmoke;
+#signupbox > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 50%;
+    border-radius: 5px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background-color: darkslateblue;
+    height: 50%;
 }
 
 .cardarray {
