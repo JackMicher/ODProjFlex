@@ -8,20 +8,25 @@ body {
 }
 
 nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     top: 0px;
     position: sticky;
     height: 80px;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
-/*
-div {
-    border-width: 2px;
-    border-style: solid;
-    border-color: darksalmon;
-}
-*/
+
 nav > div {
-    height: 100%;
-    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #F9FAF8;
+}
+
+nav a {
     color: #F9FAF8;
 }
 
@@ -29,6 +34,9 @@ footer {
     background-color: #1F2937;
     color: #F9FAF8;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -70,7 +78,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex: auto;
+    flex: 1 1 50%;
     gap: 10px;
 }
 
@@ -139,8 +147,8 @@ button {
 }
 
 .cardimg {
+    flex: 0 0 30%;
     padding-bottom: 100%;
-    display: flex;
     border-radius: 15px;
     border-style: solid;
     border-color: #3882F6;
