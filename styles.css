@@ -26,9 +26,19 @@ nav > div {
 }
 
 footer {
-    height: 80px;
     background-color: #1F2937;
     color: #F9FAF8;
+    height: 80px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+    border-radius: 5px;
 }
 
 #contentbody {
