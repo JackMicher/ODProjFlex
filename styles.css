@@ -131,8 +131,9 @@ footer {
 .cardimg {
     padding-bottom: 100%;
     display: flex;
-    border-radius: 5px;
+    border-radius: 15px;
     border-style: solid;
-    border-color: blue;
+    border-color: #3882F6;
+    border-width: 5px;
 }
 
