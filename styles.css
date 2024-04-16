@@ -156,6 +156,10 @@ button {
     border-width: 5px;
 }
 
+.cardimg > img {
+    height:auto;
+}
+
 @media only screen and (max-width: 768px) {
     .cardarray{
         flex-wrap: wrap;
