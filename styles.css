@@ -17,6 +17,7 @@ nav {
     height: 80px;
     padding-left: 15vw;
     padding-right: 15vw;
+    z-index: 10;
 }
 
 nav > div {
@@ -148,19 +149,51 @@ button {
     gap: 10px;
 }
 
-.cardimg {
+.cardimgborder {
     padding-bottom: 100%;
     border-radius: 15px;
     border-style: solid;
     border-color: #3882F6;
     border-width: 5px;
+    position: relative;
+}
+
+.cardimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .cardimg > img {
-    height:auto;
+    min-width: 100%;
+    min-height: 100%;
+    image-rendering: pixelated;
 }
 
 @media only screen and (max-width: 768px) {
+    nav {
+        padding-top: 3dvh;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        position: static;
+        gap: 5dvh;
+    }
+    nav > div {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #intro{
+        flex-direction: column;
+    }
+    #signupbox > div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 15dvh;
+    }
     .cardarray{
         flex-wrap: wrap;
     }
